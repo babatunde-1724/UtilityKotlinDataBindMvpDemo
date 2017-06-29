@@ -1,0 +1,51 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="presenter"
+            type="com.example.framgiababatundefatoyesunday.utiltykotlindatabindmvpdemo.home.HomePresenter"
+            />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        >
+
+        <Button
+            android:id="@+id/btn_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{ () -> presenter.toNotes()}"
+            android:padding="@dimen/dp_10"
+            android:text="@string/notes"
+            android:textColor="@color/colorAccent"
+            />
+
+
+        <Button
+            android:id="@+id/btn_diary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_notes"
+            android:onClick="@{ () -> presenter.toDiary()}"
+            android:padding="@dimen/dp_10"
+            android:text="@string/diary"
+            android:textColor="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_diary"
+            android:onClick="@{() -> presenter.toContacts()}"
+            android:padding="@dimen/dp_10"
+            android:text="@string/contacts"
+            android:textColor="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+</layout>

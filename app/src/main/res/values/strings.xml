@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">UtiltyKotlinDataBindMvpDemo</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="slide_1_title">Note</string>
+    <string name="slide_1_desc">Access your notes on the go!</string>
+
+    <string name="slide_2_title">Diary</string>
+    <string name="slide_2_desc">Your diary is safe and organized!</string>
+
+    <string name="slide_3_title">Contact</string>
+    <string name="slide_3_desc">All your contacts are ready!</string>
+
+    <string name="slide_4_title">Backed Up</string>
+    <string name="slide_4_desc">No matter where you are, your data is backed uo and accessible!</string>
+
+
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="japanese">日本語</string>
+    <string name="chinese">中文</string>
+    <string name="korean">한국어</string>
+
+    //Add Contact Screen
+    <string name="favourite">Favourite</string>
+
+    //MainActivity Screen
+    <string name="notes">Notes</string>
+    <string name="diary">Diary</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+
+    //Contacts Screen
+    <string name="new_contact">New Contact</string>
+    <string name="delete">Delete</string>
+    <string name="alert_msg_delete">Permanently delete contact?</string>
+
+    //NewContactActivity Screen
+    <string name="hint_name">Name</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_home">Home</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_address">Address</string>
+    <string name="add_to_favourite">Add to favourites</string>
+
+    <!--ion font show icon-->
+    <string name="icon_people">&#xf47e;</string>
+    <string name="icon_camera">&#xf3f5;</string>
+    <string name="icon_back">&#xf124;</string>
+    <string name="icon_close">&#xf2d7;</string>
+    <string name="icon_search">&#xf4a5;</string>
+
+</resources>
+
